@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+}
+h1{ font-size: 3.5em;}
+
+h2{ font-size: 2.7em}
+
+h3{ font-size: 2em}
+
+p{ font: size 1.25em;}
+
+ul{ list-style: none;}
+
+button{ 
+    font-size: 1em; 
+    font-family: "Fira Code";
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(70, 51, 151, 0.664);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color:white;
+    background-color:rgb(101, 37, 161);
+
+}
+button:hover{
+    background-color:rgb(67, 25, 105)
+}
+
+body{
+    background-color: white;
+    font-family: "Fira Code";
+    margin:0;
+}
+
+.container{
+    max-width: 1400px;
+    margin:auto
+}
+
+.header{
+    background-color:white;
+}
+
+header{
+    background-color:rgb(44, 43, 43);
+}
+
+header .logo{
+    margin:0;
+    
+    /* 25px alto y abajo y 25px derecha y izquierda */
+    padding:25px 30px;
+    font-weight: bold;
+    color:blueviolet;
+    font-size: 1.6em;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a{
+    padding:5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+
+}
+
+header a:hover{
+    color:blueviolet
+}
+
+#hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:rgb(220, 224, 230);
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("../img/Fondo1Jap.jpg");
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#somos-proya .container{
+    text-align: center;
+    padding: 202px 12px;
+    color: white;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(43, 36, 36, 0.7),
+        rgba(0,0,0,0.7)
+    ),url("../img/Fondo2Jap.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+.color-acento{
+    color:blueviolet;
+}
+
+#nuestros-programas{
+    background-color:rgb(30, 30, 30);
+    color:white;
+    text-align:center;
+}
+
+#nuestros-programas .container{
+    padding: 150px 0px;
+}
+
+#nuestros-programas p{
+    display:none
+}
+#nuestros-programas h2{
+    margin-top: 0px;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding:50px;
+    margin:20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("../img/SpyXFamFond.jpg");
+
+}
+
+#caracteristicas ul{
+    padding: 0px;
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("../img/CyberPunk.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("../img/ChainSawManFond.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+#hero .iconito{
+    display:flex;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:rgb(141, 53, 182) solid
+}
+
+
+
+#caracteristicas .container{
+    text-align: center;
+    padding:150px 12px
+}
+
+#caracteristicas li{
+    margin: 16px;
+}
+
+#final{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    background-color: rgb(17, 4, 4);
+    height: 80vh;
+}
+
+#final p{
+    padding:10px;
+}
+final h2{
+    font-size: 9vw;
+}
+
+final button{
+    background-position: center center;
+    background-size: cover;
+}
+
+footer{ 
+    background-color:white;
+    color:rgb(100, 100, 100 )
+}
+
+footer p{
+    margin:0px;
+    color:rgb(102, 62, 197)
+}
+
+footer .container{
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom:0px;
+        padding-right:20px;
+    }
+
+    #somos-proya .container{
+        background-image:none;
+    ;
+    }
+
+    #somos-proya{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        color:rgb(220, 224, 230);
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url("../img/Fondo2Jap.jpg");
+        
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+    }
+
+    #nuestros-programas .programas{
+        display: flex;
+    }
+    
+    #nuestros-programas p{
+        display:block;
+    }
+
+    #nuestros-programas .carta{
+        padding:15px;
+    }
+    
+    #hero .iconito{
+        display:flex;
+        width:250px;
+        height:250px;
+        border-radius:50%;
+        border:rgb(141, 53, 182) solid
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),url("../img/SpyXFamFond.jpg");
+    
+    }
+}

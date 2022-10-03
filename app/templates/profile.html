@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+    <link rel= "stylesheet" href="{{url_for('static', filename='css/perfil.css') }}">
+</head>
+<body>
+    <section class = "content">
+        <section id = "seccion">
+            <img src = "../static/img4/Circular Sierpe.png" class = "icono">
+            <h1>Perfil de {{nombres.nombres}} {{apellidos.apellidos}} </h1>
+            <h2>Usuario Web Developer</h2>
+            <p>Usuario encargado del servicio y mantenimiento de las recetas. 
+                Calculador de estadisticas y  
+                recopilación de datos necesarios para 
+                la investigación de platos más consumidos.</p>    
+                <a href = '/login' >
+                    <button class='x1'>Regresar</button>
+                </a>
+                <a href="/">  
+                    <button class='x2'>Salir</button>
+                </a>
+        </section>  
+    </section
+</body>
+
+
+</html>

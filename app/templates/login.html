@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Login | Comidas</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/master.css') }}">
+</head>
+<body>
+    <div class="login-box">
+        <img class="avatar" src="../static/img3/logo1.png" alt="logo1">
+        <h1> Login here</h1>
+        <form method="post">
+            <!-- USERNAME INPUT -->
+            <label for="correo">Email</label>
+            <input type="text" name = "correo" id="correo" placeholder="Enter email" required>
+            <!-- PASSWORD INPUT -->
+            <label for="contraseña">Password</label>
+            <input type="password" name="contraseña" id ="contraseña" placeholder="Enter Password" required>
+            <input type="submit" value="Log In">
+            <a href="#">Lost your Password?</a><br>
+            <a href="#">Don't have An account?</a>
+        </form>
+    </div>
+    </body>
+</html>

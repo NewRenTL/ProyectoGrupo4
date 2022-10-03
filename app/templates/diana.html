@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo 1</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/model2.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Bienvenida!</p>
+            <nav>
+                <a href = "#somos-proya">Mensaje</a>
+                <a href = "#nuestros-programas">Animes</a>
+                <a href = "#caracteristicas">Consejos Extras</a>
+            </nav>
+        </div>
+    </header>
+    <section id = "hero">
+        <img src = "../static/img/DinaIcon.jpg" class = "iconito"/>
+        <h1>Feliz Cumpleaños <br> {{new.nombre}} !</h1>
+        <a href="#somos-proya">
+            <button> Bajar </button>
+        </a>
+    </section>
+
+    <section id = "somos-proya">
+        <div class = "container">
+            <div class="img-container"></div>
+            <h2>Hola <span class="color-acento">Diana!</span></h2>
+            <p> Espero le haya ido bien este ultimo medio año, 
+                tanto en su U como en su vida personal,y
+                que su familia pueda estar ahi para apoyarla, 
+                creo que ¿ya tiene 20 años xd?,bueno supongo 
+                que cada año menos vida v': jsjsj...
+                <br> Pasela genial si fuera posible este dia, 
+                o bueno quizas tenga tareas xdd, asi que !animo usted puede!...<br>
+                !Espero la pase bien !
+            </p>    
+        </div>  
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Algunos animes de Temporada</h2> 
+            <div class="Programas">
+                <div class="carta">
+                    <h3>Spy X Family Part 2</h3>
+                    <p>Vuelve el espia,la asesina y la más querida Anya! jssjsj</p>
+                    <a href="https://jkanime.bz/spy-x-family-part-2/" target="_blank">
+                        <button type ="buttom" >Por salir</button>
+                    </a>
+                </div>
+                <div class="carta">
+                    <h3>Cyberpung Edgerunners</h3>
+                    <p>Solo dire que , esta increible su mundo</p>
+                    <a  href="https://jkanime.bz/cyberpunk-edgerunners/" target="_blank">
+                        <button>Ver</button>
+                    </a>   
+                </div>
+                <div class="carta">
+                    <h3>Chainsaw Man</h3>
+                    <p>Tambien ya casi sale el pibe motosierra!! xD</p>
+                    <a href="https://jkanime.bz/chainsaw-man/" target="_blank">
+                        <button>Por salir</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✅ Se viene tremenda temporada de Anime</li>
+                <li>✅ Siga despertandose temprano </li>
+                <li>✅ Llevese bien con sus amistades de alli </li>
+                <li>✅ Ya le faltan casi 3 años para terminar su carrera creo xd</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2> !Ah verdad estaba pensando en algo!</h2>
+        <p> Se que es muy pronto v:, pero estaba pensando 
+            quizas cuando todos terminemos nuestras carreras,
+            se pueda quizas planear ir de viaje a algun lugar o pais, 
+            llevando a nuestras amistades de nuestras U, aun
+            queda mucho pero tenia esa idea.
+        </p>
+        <a href="#hero">
+            <button>Regresar</button>
+        </a>
+        
+    </section>
+
+    <footer>
+        <div class="container">
+            <!-- &copy para simbolo de copyright-->
+            <p>&copy;Arigato</p>
+        </div> 
+    </footer>
+</body>
+</html>

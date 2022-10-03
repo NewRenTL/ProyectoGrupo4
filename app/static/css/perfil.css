@@ -1,0 +1,60 @@
+#seccion .icono{
+    width:200px;
+    height:200px;   
+    border-radius:50%;
+    border:7px solid ;
+    
+}
+
+#seccion h1{
+    font-family: 'Fira Code';
+    font-size: 1.5em;
+}
+
+#seccion p{
+    font-weight: 500;
+}
+.content {
+    background-image:url(../img4/FondoComida4.jpg);
+    background-size: cover;
+    height:100vh;
+    display:flex;
+    font-family: 'Fira Code';
+}
+
+body {
+    margin: 0 0;
+}
+
+button{
+    font-size: 1em; 
+    font-family: "Fira Code";
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(70, 51, 151, 0.664);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color:white;
+    background-color:rgb(101, 37, 161);
+}
+button:hover{
+    background-color:rgb(67, 25, 105);
+}
+.x2{
+    margin-left: 100px;
+}
+#seccion{
+    width:500px;
+    font-family: 'Fira Code';
+    margin: auto auto;
+    background:rgba(245, 245, 245, 0.377);   
+    align-items: center;
+    flex-direction: column;
+    margin-top:4%;
+    padding:20px;
+    background-size: cover;
+    justify-content: center;
+    background-position:center center;
+    text-align:center;
+    border-radius: 20px;
+}
